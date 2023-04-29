@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body { background-color: #eae2b7;
-  color: #003049;
+  color: #003049; 
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;  
 }
@@ -21,29 +21,36 @@ h1{
   font-family: "Playfair Display",text-align: center;}
 
 h2{
-  font-family: "Playfair Display",;}
+  font-family: "Playfair Display",text-align: center;
+  ;}
 
 h3 { text-align: center;
   font-family: "Playfair Display", Times, serif;
 }
 
-article {; 
-  padding: 50px 0;
+article { text-align: center;
+  padding: 60px ;
+}
+article div {text-align: center;
 }
 
-article div {
-  ;
-  width: 100%;
+p {text-align: left;
 }
 
-p { width: 75%;
-  line-height: 1.5;
+ul.myUL {text-align: left;
+  display: inline-block ;
 }
-
+ol.myOL {text-align: center;
+  display: inline-block;
+}
+section{ width: 50%; text-align: center; margin: auto ;}
+  
 /* The div container constrains the content width within the main container to 600px */
 div {text-align: center;
   margin: auto;
   width: 600px;
+}
+div.container {text-align: left;
 }
 
 img {
@@ -63,4 +70,5 @@ hr {
   border-color:#003049;
   border-radius: 50% ;
 } 
+
 footer {text-align: center;}
